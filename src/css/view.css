@@ -1,31 +1,5 @@
-﻿body {
-    background-color: rgba(244,240,234,1);
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-}
-
-.view {
+﻿.view {
     width: 1600px;
     height: 1062px;
-    background-color: rgba(244,240,234,1);
-}
-
-
-
-/**/
-.view__order {
-}
-
-.view__order__header {
-}
-
-
-/**/
-.view__order__pptp {
-}
-
-.view__order__pptp__value {
-}
-
-.view__order__pptp__caption {
+    background-color: #f4f0ea;
 }

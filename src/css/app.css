@@ -1,0 +1,15 @@
+﻿body {
+    background-color: #f4f0ea;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.tracer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1600px;
+    height: 1062px;
+    opacity: 1;
+    background-image: url("../../mockups/view-01.png");
+}

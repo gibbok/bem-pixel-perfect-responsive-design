@@ -1,0 +1,31 @@
+﻿/**/
+.view__header {
+    width: 1600px;
+    height: 115px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e8e5e2;
+}
+
+.view__header__title {
+    margin-left: 135px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.view__header__dateTime {
+    margin-right: 50px;
+}
+
+.view__header__dateTime__time {
+    font-weight: 700;
+    text-align: right;
+}
+
+.view__header__dateTime__date {
+    text-transform: uppercase;
+    color: #84848c;
+}

@@ -102,6 +102,7 @@
     height: 32px;
     background-color: gray;
     display: flex;
+    justify-content: space-between;
 }
 
 .order__body__produce__production__container {
@@ -116,7 +117,6 @@
 }
 
 .order__body__produce__production__info__caption {
-    /*TODO*/
     text-transform: uppercase;
     color: #a4a4a4;
     font-size: 13px;
@@ -128,12 +128,34 @@
     font-size: 18px;
 }
 
+
+
+
 .order__body__produce__waste_container {
-    flex-grow: 1;
 }
 
 .order__body__produce__waste {
+    width: 115px;
 }
+
+.order__body__produce__waste__info {
+    display: flex;
+    height: 22px;
+    justify-content: space-between;
+}
+
+.order__body__produce__waste__info__caption {
+    text-transform: uppercase;
+}
+
+.order__body__produce__waste__info__value {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+
+
 
 
 /**/

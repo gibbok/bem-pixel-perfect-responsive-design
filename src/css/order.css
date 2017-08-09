@@ -10,11 +10,11 @@
     flex-direction: column;
 }
 
-
 .order__header {
     background-color: yellow;
     width: inherit;
     height: 69px;
+    display: flex;
 }
 
 .order__body {
@@ -23,13 +23,25 @@
     height: 187px;
 }
 
-
 /**/
-.order__pptp {
+.order__header__pptp {
+    width: 100px;
+    height: inherit;
+    background-color: Highlight;
 }
 
-.order__pptp__value {
+.order__header__identificator {
+    width: 150px;
+    height: inherit;
+    background-color: lightcyan
 }
 
-.order__pptp__caption {
+.order__header__spacer {
+    flex-grow: 1;
+}
+
+.order__header__operators {
+    width: 100px;
+    height: inherit;
+    background-color: lightcoral
 }

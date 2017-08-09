@@ -26,10 +26,14 @@
     flex-direction: column;
 }
 
-    .orders__container .order:last-of-type {
-        background-color: red !important;
-        margin-bottom: 0;
+    .orders__container .order {
+        margin-bottom: 33px;
     }
+
+        .orders__container .order:last-of-type {
+            background-color: red !important;
+            margin-bottom: 0;
+        }
 
 .contextual__container {
     /*background-color: orange;*/

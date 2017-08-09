@@ -19,7 +19,20 @@
 .order__header__pptp {
     width: 100px;
     height: inherit;
+    padding-top: 26px;
+    padding-left: 8px;
     background-color: Highlight;
+}
+
+.order__header__pptp__value {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.order__header__pptp__caption {
+    text-transform: uppercase;
+    color: #a4a4a4;
+    font-size: 13px;
 }
 
 .order__header__identificator {

@@ -1,8 +1,8 @@
 ﻿.view {
     width: 1600px;
     height: 1062px;
-    /*background-color: #f4f0ea;*/
-    background-color: red;
+    background-color: #f4f0ea;
+    /*background-color: red;*/
 }
 
 .view__body {
@@ -15,17 +15,16 @@
     background-color: aliceblue;
     display: flex;
     justify-content: space-between;
-    margin: 60px 50px 45px 50px;
+    /*margin: 60px 50px 45px 50px;*/
+    margin: 63px 50px 45px 47px;
 }
 
 .view__orders__container {
-    background-color: green;
+    /*background-color: green;*/
     width: 965px;
-    height: 150px;
 }
 
 .view__contextual__container {
-    background-color: orange;
+    /*background-color: orange;*/
     width: 510px;
-    height: 150px;
 }

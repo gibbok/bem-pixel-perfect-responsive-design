@@ -3,6 +3,9 @@
 
 /**/
 .view__order {
+    width: 100%;
+    height: 256px;
+    background-color: blue;
 }
 
 

@@ -2,7 +2,7 @@
 
 
 /**/
-.view__order {
+.order {
     width: 100%;
     height: 256px;
     background-color: blue;
@@ -10,7 +10,7 @@
 }
 
 
-    .view__order:last-of-type {
+    .order:last-of-type {
         background-color: red !important;
         margin-bottom: 0;
     }
@@ -18,16 +18,16 @@
 
 
 
-.view__order__header {
+.order__header {
 }
 
 
 /**/
-.view__order__pptp {
+.order__pptp {
 }
 
-.view__order__pptp__value {
+.order__pptp__value {
 }
 
-.view__order__pptp__caption {
+.order__pptp__caption {
 }

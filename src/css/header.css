@@ -1,5 +1,5 @@
 ﻿/**/
-.view__header {
+.header {
     width: 1600px;
     height: 115px;
     background-color: #ffffff;
@@ -9,7 +9,7 @@
     border-bottom: 1px solid #e8e5e2;
 }
 
-.view__header__title {
+.header__title {
     margin: 5px 0 0 135px;
     /*margin-top: 5px;
     margin-left: 135px;*/
@@ -18,17 +18,17 @@
     font-weight: 700;
 }
 
-.view__header__dateTime {
+.header__dateTime__container {
     margin-right: 50px;
 }
 
-.view__header__dateTime__time {
+.header__dateTime__time {
     font-weight: 700;
     font-size: 22px;
     text-align: right;
 }
 
-.view__header__dateTime__date {
+.header__dateTime__date {
     text-transform: uppercase;
     color: #84848c;
     font-size: 13px;

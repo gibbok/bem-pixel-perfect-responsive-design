@@ -5,12 +5,12 @@
     /*background-color: red;*/
 }
 
-.view__body {
+.body {
     width: inherit;
     height: 947px;
 }
 
-.view__body__containers {
+.body__containers {
     height: 837px;
     background-color: aliceblue;
     display: flex;
@@ -19,14 +19,14 @@
     margin: 63px 50px 45px 47px;
 }
 
-.view__orders__container {
+.orders__container {
     /*background-color: green;*/
     width: 965px;
     display: flex;
     flex-direction: column;
 }
 
-.view__contextual__container {
+.contextual__container {
     /*background-color: orange;*/
     width: 510px;
 }

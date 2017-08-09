@@ -89,4 +89,33 @@
     background-color: orange;
     width: inherit;
     height: 187px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    /*padding-top: 4px;*/
+}
+
+.order__body__produce {
+    margin-top: 16px;
+    height: 32px;
+    background-color: gray;
+    display: flex;
+}
+
+.order__body__produce__production {
+    width: 725px;
+    background-color: greenyellow;
+}
+
+/**/
+.order__body__oee {
+    margin-top: 16px;
+    height: 32px;
+    background-color: darkseagreen;
+}
+
+.order__body__noaccident {
+    margin-top: 16px;
+    height: 32px;
+    background-color: lightcoral;
 }

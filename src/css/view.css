@@ -22,6 +22,8 @@
 .view__orders__container {
     /*background-color: green;*/
     width: 965px;
+    display: flex;
+    flex-direction: column;
 }
 
 .view__contextual__container {

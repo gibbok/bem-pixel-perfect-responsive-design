@@ -92,6 +92,8 @@
     display: flex;
     flex-direction: column;
     padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
     /*padding-top: 4px;*/
 }
 
@@ -109,7 +111,21 @@
 
 .order__body__produce__production__info {
     display: flex;
+    height: 22px;
     justify-content: space-between;
+}
+
+.order__body__produce__production__info__caption {
+    /*TODO*/
+    text-transform: uppercase;
+    color: #a4a4a4;
+    font-size: 13px;
+    padding-top: 4px;
+}
+
+.order__body__produce__production__info__value {
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .order__body__produce__waste_container {

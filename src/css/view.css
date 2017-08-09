@@ -1,5 +1,31 @@
 ﻿.view {
     width: 1600px;
     height: 1062px;
-    background-color: #f4f0ea;
+    /*background-color: #f4f0ea;*/
+    background-color: red;
+}
+
+.view__body {
+    width: inherit;
+    height: 947px;
+    padding: 60px 45px 45px 50px;
+}
+
+.view__body__containers {
+    height: 837px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view__orders__container {
+    background-color: green;
+    width: 965px;
+    height: 150px;
+}
+
+.view__contextual__container {
+    background-color: orange;
+    width: 510px;
+    height: 150px;
 }

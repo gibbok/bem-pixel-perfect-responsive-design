@@ -2,7 +2,7 @@
 .order {
     width: 100%;
     height: 256px;
-    background-color: blue;
+    /*background-color: blue;*/
     display: flex;
     flex-direction: column;
     padding-left: 33px;
@@ -86,7 +86,7 @@
 
 /**/
 .order__body {
-    background-color: orange;
+    /*background-color: orange;*/
     width: inherit;
     height: 187px;
     display: flex;
@@ -157,19 +157,41 @@
 }
 
 
-
-
-
-
 /**/
-.order__body__oee {
-    margin-top: 16px;
+.order__body__equipment {
+    margin-top: 15px;
     height: 32px;
-    background-color: darkseagreen;
+    /*background-color: darkseagreen;*/
 }
+
+.order__body__equipment__oee__info {
+    display: flex;
+    justify-content: space-between;
+    height: 22px;
+}
+
+.order__body__equipment__oee__info__caption {
+    text-transform: uppercase;
+    color: #a4a4a4;
+    font-size: 13px;
+    padding-top: 4px;
+}
+
+.order__body__equipment__oee__info__value {
+    font-weight: 700;
+    font-size: 18px;
+}
+
 
 .order__body__noaccident {
     margin-top: 16px;
     height: 32px;
     background-color: lightcoral;
 }
+
+
+/*
+
+    order__body__equipment__oee__info__caption
+
+*/

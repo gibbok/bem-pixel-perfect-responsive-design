@@ -168,20 +168,20 @@
     /*background-color: darkseagreen;*/
 }
 
-.order__body__equipment__oee__info {
+.order__body__equipment__info {
     display: flex;
     justify-content: space-between;
     height: 22px;
 }
 
-.order__body__equipment__oee__info__caption {
+.order__body__equipment__info__caption {
     text-transform: uppercase;
     color: #a4a4a4;
     font-size: 13px;
     padding-top: 4px;
 }
 
-.order__body__equipment__oee__info__value {
+.order__body__equipment__info__value {
     font-weight: 700;
     font-size: 18px;
 }
@@ -196,6 +196,6 @@
 
 /*
 
-    order__body__equipment__oee__info__caption
+    order__body__equipment__info__caption
 
 */

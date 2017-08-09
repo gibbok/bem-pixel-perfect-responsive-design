@@ -1,8 +1,13 @@
 ﻿.bar {
+    height: 10px;
 }
 
 .bar__progress {
+    background-color: #446ac2;
+    height: inherit;
 }
 
 .bar_background {
+    background-color: #e5e5e5;
+    height: inherit;
 }

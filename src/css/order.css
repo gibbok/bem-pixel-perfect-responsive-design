@@ -102,9 +102,14 @@
     display: flex;
 }
 
-.order__body__produce__production_container {
+.order__body__produce__production__container {
     width: 730px;
     background-color: greenyellow;
+}
+
+.order__body__produce__production__info {
+    display: flex;
+    justify-content: space-between;
 }
 
 .order__body__produce__waste_container {

@@ -38,7 +38,21 @@
 .order__header__identificator {
     width: 150px;
     height: inherit;
-    background-color: lightcyan
+    background-color: lightcyan;
+    padding-top: 26px;
+    padding-left: 8px;
+}
+
+.order__header__identificator__value {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.order__header__identificator__caption {
+    text-transform: uppercase;
+    color: #a4a4a4;
+    font-size: 13px;
 }
 
 .order__header__spacer {
@@ -48,8 +62,15 @@
 .order__header__operators {
     width: 100px;
     height: inherit;
-    background-color: lightcoral
+    /*background-color: lightcoral*/
 }
+
+.order__header__operator {
+    width: 20px;
+    height: 20px;
+    background-image: url("../assets/avatar.png");
+}
+
 
 /**/
 .order__rule {

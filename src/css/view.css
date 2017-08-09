@@ -36,6 +36,16 @@
         }
 
 .contextual__container {
+    display: flex;
+    flex-direction: column;
     /*background-color: orange;*/
     width: 510px;
 }
+
+    .contextual__container > div {
+        margin-bottom: 33px;
+    }
+
+        .contextual__container > div:last-child {
+            margin-bottom: 0;
+        }

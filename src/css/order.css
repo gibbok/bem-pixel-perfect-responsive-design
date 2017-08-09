@@ -102,10 +102,18 @@
     display: flex;
 }
 
-.order__body__produce__production {
-    width: 725px;
+.order__body__produce__production_container {
+    width: 730px;
     background-color: greenyellow;
 }
+
+.order__body__produce__waste_container {
+    flex-grow: 1;
+}
+
+.order__body__produce__waste {
+}
+
 
 /**/
 .order__body__oee {

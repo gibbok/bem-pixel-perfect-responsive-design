@@ -62,9 +62,9 @@
 .order__header__operators {
     width: 100px;
     height: inherit;
-    padding-top: 26px;
+    padding-top: 25px;
     text-align: right;
-    padding-right: 8px;
+    padding-right: 4px;
     /*background-color: lightcoral*/
 }
 
@@ -74,6 +74,10 @@
 
 .order__header__operator--active {
     color: #000000;
+}
+
+.order__header__operators .material-icons.md-27 {
+    font-size: 27px;
 }
 
 /**/

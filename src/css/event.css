@@ -49,15 +49,17 @@
 }
 
 .event__body {
+    position: absolute;
     overflow-x: auto;
     overflow-y: hidden;
     /*background-color: orange;*/
-    width: inherit;
+    width: 510px;
     height: 187px;
     display: flex;
     flex-direction: column;
     padding-top: 10px;
 }
+
 
 .event__body__timeline {
     height: 3px;
@@ -70,4 +72,27 @@
     height: inherit;
     /*background-color: #e4e4e4;*/
     background-color: #3862c0;
+}
+
+.event__body__situation {
+    position: inherit;
+    display: flex;
+    flex-direction: column;
+    top: 30px;
+    left: 41px;
+    height: 60px;
+    width: 170px;
+    opacity: 0.5;
+    border: 1px solid red;
+}
+
+.event__body__situation__time {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.event__body__situation__name {
+    text-transform: uppercase;
+    color: #a4a4a4;
+    font-size: 13px;
 }

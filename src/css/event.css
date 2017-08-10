@@ -80,9 +80,8 @@
     flex-direction: column;
     top: 30px;
     left: 41px;
-    height: 60px;
+    height: 62px;
     width: 170px;
-    opacity: 0.5;
     border: 1px solid red;
 }
 
@@ -95,4 +94,14 @@
     text-transform: uppercase;
     color: #a4a4a4;
     font-size: 13px;
+}
+
+.event__body__situation_point--level0 {
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #3862c0;
+    border: 1px solid #ffffff;
 }

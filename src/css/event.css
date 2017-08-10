@@ -1,8 +1,8 @@
 ﻿.event {
     width: 100%;
     height: 255px;
-    padding-left: 33px;
-    padding-right: 43px;
+    /*padding-left: 33px;
+    padding-right: 43px;*/
     border: 1px solid #faf9f9;
     background-color: #ffffff;
     /*border: 1px solid #faf9f9;*/
@@ -14,6 +14,8 @@
     height: 69px;
     display: flex;
     background-color: Highlight;
+    padding-left: 33px;
+    padding-right: 43px;
 }
 
 .event__header__title {
@@ -38,24 +40,21 @@
 }
 
 .event__rule {
-    width: 100%;
+    width: calc(100% - 33px - 43px);
     height: 1px;
     /*background-color: red;*/
+    margin-left: 33px;
+    margin-right: 43px;
     background-color: #e5e5e5;
 }
 
 .event__body {
     overflow-x: auto;
     overflow-y: hidden;
-    background-color: orange;
+    /*background-color: orange;*/
     width: inherit;
     height: 187px;
     display: flex;
     flex-direction: column;
     padding-top: 10px;
-    width: calc(100% + 33px + 43px);
-    margin-left: -33px;
-    /*padding-left: -8px;
-    padding-right: -8px;*/
-    /*padding-top: 4px;*/
 }

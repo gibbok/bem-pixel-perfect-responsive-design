@@ -7,4 +7,5 @@
 - [x] add css resetter
 
 - [ ] add shadow in header
+- [ ] refactory operators in a separate module
 

@@ -7,6 +7,16 @@
     height: inherit;
 }
 
+.bar__progress--warning {
+    background-color: #f3a536;
+    height: inherit;
+}
+
+.bar__progress--alert {
+    background-color: #ce0a24;
+    height: inherit;
+}
+
 .bar_background {
     background-color: #e5e5e5;
     height: inherit;

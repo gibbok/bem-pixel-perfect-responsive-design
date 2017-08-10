@@ -10,7 +10,7 @@
 }
 /**/
 .order__header {
-    background-color: yellow;
+    /*background-color: yellow;*/
     width: inherit;
     height: 69px;
     display: flex;
@@ -21,7 +21,7 @@
     height: inherit;
     padding-top: 26px;
     padding-left: 8px;
-    background-color: Highlight;
+    /*background-color: Highlight;*/
 }
 
 .order__header__pptp__value {
@@ -38,7 +38,7 @@
 .order__header__identificator {
     width: 150px;
     height: inherit;
-    background-color: lightcyan;
+    /*background-color: lightcyan;*/
     padding-top: 26px;
     padding-left: 8px;
 }
@@ -84,8 +84,8 @@
 .order__rule {
     width: 100%;
     height: 1px;
-    background-color: red;
-    /*background-color: #e5e5e5;*/
+    /*background-color: red;*/
+    background-color: #e5e5e5;
 }
 
 /**/
@@ -190,12 +190,30 @@
 .order__body__noaccident {
     margin-top: 16px;
     height: 32px;
-    background-color: lightcoral;
 }
 
+.order__body__noaccident__info {
+    display: flex;
+    justify-content: space-between;
+    height: 22px;
+}
 
-/*
+.order__body__noaccident__info__caption {
+    text-transform: uppercase;
+    color: #a4a4a4;
+    font-size: 13px;
+    padding-top: 4px;
+}
 
-    order__body__equipment__info__caption
+.order__body__noaccident__info__value {
+}
 
-*/
+.order__body__noaccident__info__value__numeric {
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 2px;
+}
+
+.order__body__noaccident__info__value__text {
+    font-size: 13px;
+}

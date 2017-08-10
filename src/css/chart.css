@@ -1,2 +1,7 @@
 ﻿.chart {
 }
+
+.chart_data_values_numeric tspan {
+    font-weight: bold;
+    font-family: Arial;
+}

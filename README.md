@@ -10,4 +10,4 @@
 - [x] refactory operators in a separate css module
 - [ ] rename operators to avatar/person
 - [ ] improve space among avatars/persons
-
+- [ ] improve svg viewbox

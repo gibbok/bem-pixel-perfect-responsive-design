@@ -7,5 +7,6 @@
 - [x] add css resetter
 
 - [ ] add shadow in layout componenet (header/orders and so on)
-- [ ] refactory operators in a separate css module
+- [x] refactory operators in a separate css module
+- [ ] rename operators to avatar/person
 

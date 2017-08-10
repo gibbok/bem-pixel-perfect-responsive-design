@@ -11,6 +11,10 @@
     fill-opacity: 0;
 }
 
+.chart_reference_spot {
+    fill: #d8d8d8;
+    stroke: #ffffff;
+}
 
 .chart_data_production {
     fill: #19316b;

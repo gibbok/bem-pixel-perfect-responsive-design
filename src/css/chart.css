@@ -16,6 +16,23 @@
     stroke: #ffffff;
 }
 
+.chart_legend_info {
+    color: #d8d8d8;
+    text-transform: uppercase;
+}
+
+.chart_legend_color_production {
+    fill: #19316b;
+}
+
+.chart_legend_color_oee {
+    fill: #28499d;
+}
+
+.chart_legend_color_waste {
+    fill: #4167be;
+}
+
 .chart_data_production {
     fill: #19316b;
     fill-opacity: 1;
@@ -23,11 +40,6 @@
 
 .chart_data_oee {
     fill: #28499d;
-    fill-opacity: 0.9;
-}
-
-.chart_data_waste {
-    fill: #4167be;
     fill-opacity: 0.9;
 }
 

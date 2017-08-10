@@ -62,6 +62,7 @@
     flex-grow: 1;
 }
 
+/**/
 .order__header__operators {
     width: 100px;
     height: inherit;
@@ -71,17 +72,11 @@
     /*background-color: lightcoral*/
 }
 
-.order__header__operator--inactive {
-    color: #d7d7d7;
-}
+    .order__header__operators .material-icons.md-27 {
+        font-size: 27px;
+    }
 
-.order__header__operator--active {
-    color: #000000;
-}
 
-.order__header__operators .material-icons.md-27 {
-    font-size: 27px;
-}
 
 /**/
 .order__rule {

@@ -43,5 +43,16 @@
     background-color: #e5e5e5;
 }
 
-.perfomance__body {
+.event__body {
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-color: orange;
+    width: inherit;
+    height: 187px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    /*padding-top: 4px;*/
 }

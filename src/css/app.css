@@ -14,5 +14,7 @@ body {
     width: 1600px;
     height: 1062px;
     opacity: 0.2;
-    background-image: url("../../mockups/view-01.png");
+    z-index: 2;
+    background-image: url("../../mockups/view-02.png");
+    /*background-image: url("../../mockups/view-01.png");*/
 }

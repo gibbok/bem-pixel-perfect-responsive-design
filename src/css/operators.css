@@ -1,12 +1,14 @@
 ﻿
 .operators {
     margin-top: -375px;
-    background-color: red;
+    width: 225px;
     height: 355px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     z-index: 1;
+    background-color: rgba(255,0,0,0.5);
+    width: 100%;
 }
 
 .operators__add {

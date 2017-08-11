@@ -32,7 +32,7 @@
     padding-top: 2px;
     width: 212px;
     padding-left: 0px;
-    height: 160px;
+    height: 157px;
 }
 
 
@@ -54,6 +54,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.operators__list__operator__label3 {
+    width: 113px;
+    height: 31px;
+    background-color: #000000;
+    /*border: 1px solid green;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
 }
 
 .operators__list__operator__label__value {

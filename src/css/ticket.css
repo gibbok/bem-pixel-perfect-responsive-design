@@ -53,3 +53,32 @@
     background-color: #000000;
     opacity: 0.7;
 }
+
+.ticket__window__main__header {
+    width: inherit;
+    height: 117px;
+    display: flex;
+    background-color: Highlight;
+    padding-left: 33px;
+    padding-right: 43px;
+}
+
+.ticket__window__main_header__title {
+    width: 100%;
+    height: inherit;
+    background-color: yellow;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 700;
+    padding-top: 39px;
+    padding-left: 13px;
+}
+
+.ticket__window__main__rule {
+    width: calc(100% - 33px - 43px);
+    height: 1px;
+    margin-left: 33px;
+    margin-right: 43px;
+    background-color: #e5e5e5;
+    background-color: red;
+}

@@ -125,3 +125,21 @@
 .ticket__window__main_header__info__worker__value {
     letter-spacing: -1px;
 }
+
+.ticket__window__main__body {
+    padding-left: 48px;
+    padding-right: 50px;
+}
+
+.ticket__window__main__body__recommandations {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+}
+
+.ticket__window__main__body__recommandations__info,
+.ticket__window__main__body__recommandations__chance {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #9a9692;
+}

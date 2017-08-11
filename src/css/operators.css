@@ -1,5 +1,45 @@
 ﻿.operators {
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+    width: 225px;
+    height: 360px;
+    z-index: 1;
+    border: 1px solid red;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.operators__list {
+    flex-grow: 1;
+    background-color: green;
+}
+
+.operators__add {
+    background-color: yellow;
+    height: 70px;
+    padding-right: 10px;
+}
+
+.operators__add__icon {
+    width: 70px;
+    height: 70px;
+    background-color: #446ac2;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.75);
+    margin-left: auto;
+}
+
+    .operators__add__icon:hover {
+        filter: brightness(110%);
+    }
+
 
 /*.operators {
     width: 100%;

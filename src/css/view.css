@@ -50,16 +50,7 @@
             margin-bottom: 0;
         }
 
-.operators__container {
-    position: absolute;
-    right: 50px;
-    bottom: 20px;
-    width: 225px;
-    height: 360px;
-    z-index: 1;
-    border: 1px solid red;
-    pointer-events: none;
-}
+
 
 /*.operators__container {
     position: absolute;

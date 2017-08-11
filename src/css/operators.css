@@ -13,26 +13,41 @@
 }
 
 .operators__list {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    flex-direction: column;
-    background-color: green;
-    align-items: center;
 }
 
-.operators__list__operator {
+.operators__list__operator1 {
     display: flex;
     justify-content: space-between;
-    width: 173px;
-    height: 42px;
-    background-color: red;
+    width: 198px;
+    padding-left: 24px;
     align-items: center;
+    padding-top: 2px;
+}
+
+.operators__list__operator2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 24px;
+    align-items: center;
+    padding-top: 2px;
+    width: 212px;
+    padding-left: 0px;
+    height: 160px;
 }
 
 
 .operators__list__operator__label {
     width: 123px;
+    height: 31px;
+    background-color: #000000;
+    /*border: 1px solid green;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.operators__list__operator__label2 {
+    width: 131px;
     height: 31px;
     background-color: #000000;
     /*border: 1px solid green;*/
@@ -58,6 +73,23 @@
     .operators__list__operator__icon .material-icons.md-40 {
         font-size: 40px;
     }
+
+
+
+.operators__list__operator__icon--active {
+    color: #ffffff;
+    background-color: #000000;
+    width: 71px;
+    height: 71px;
+    border-radius: 35px;
+    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.75);
+}
+
+    .operators__list__operator__icon--active .material-icons.md-71 {
+        font-size: 71px;
+    }
+
+
 
 
 /**/

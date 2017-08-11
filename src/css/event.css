@@ -150,9 +150,21 @@
 .event__body__situation__type2_point--warning {
     position: absolute;
     top: 0;
+    right: 0;
     width: 10px;
     height: 10px;
     border-radius: 5px;
     background-color: #f3a636;
+    border: 1px solid #ffffff;
+}
+
+.event__body__situation__type2_point--alert {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #ce0a24;
     border: 1px solid #ffffff;
 }

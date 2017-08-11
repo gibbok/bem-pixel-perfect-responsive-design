@@ -13,12 +13,23 @@
 }
 
 .operators__list {
+    display: flex;
     flex-grow: 1;
-    background-color: green;
+    justify-content: center;
+    /*background-color: green;*/
 }
 
+.operators__list__operator {
+    display: flex;
+    justify-content: space-between;
+    width: 173px;
+    height: 42px;
+    background-color: red;
+}
+
+
 .operators__add {
-    background-color: yellow;
+    /*background-color: yellow;*/
     height: 70px;
     padding-right: 10px;
 }

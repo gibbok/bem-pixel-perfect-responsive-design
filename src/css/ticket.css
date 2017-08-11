@@ -21,7 +21,30 @@
     background-color: #ffffff;
     width: 521px;
     height: 354px;
+    display: flex;
+    flex-direction: column;
 }
+
+.ticket__window__main {
+    flex-grow: 1;
+}
+
+.ticket__window__button {
+    height: 65px;
+    width: 100%;
+    background-color: #446ac2;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.ticket__window__button__info {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 700;
+}
+
 
 .ticket__cover {
     position: absolute;

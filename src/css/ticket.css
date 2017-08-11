@@ -58,6 +58,7 @@
     width: inherit;
     height: 117px;
     display: flex;
+    flex-direction: column;
     background-color: Highlight;
     padding-left: 33px;
     padding-right: 43px;
@@ -65,7 +66,6 @@
 
 .ticket__window__main_header__title {
     width: 100%;
-    height: inherit;
     background-color: yellow;
     font-size: 25px;
     color: #000000;
@@ -81,4 +81,9 @@
     margin-right: 43px;
     background-color: #e5e5e5;
     background-color: red;
+}
+
+.ticket__window__main_header__info {
+    background-color: orange;
+    height: 50px;
 }

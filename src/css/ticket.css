@@ -66,7 +66,7 @@
 
 .ticket__window__main_header__title {
     width: 100%;
-    background-color: yellow;
+    /*background-color: yellow;*/
     font-size: 25px;
     color: #000000;
     font-weight: 700;
@@ -84,6 +84,26 @@
 }
 
 .ticket__window__main_header__info {
-    background-color: orange;
+    /*background-color: orange;*/
     height: 50px;
+    padding-left: 15px;
+    padding-top: 7px;
+}
+
+.ticket__window__main_header__info__ppt {
+    margin-right: 20px;
+}
+
+.ticket__window__main_header__info__ppt__value,
+.ticket__window__main_header__info__order__value {
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.ticket__window__main_header__info__ppt__caption,
+.ticket__window__main_header__info__order__caption {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #9a9692;
 }

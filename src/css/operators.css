@@ -1,8 +1,12 @@
 ﻿
 .operators {
-    position: absolute;
-    right: 0px;
-    top: 970px;
+    margin-top: -375px;
+    background-color: red;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
 }
 
 .operators__add {
@@ -15,7 +19,6 @@
     justify-content: center;
     color: #ffffff;
     box-shadow: 0 3px 15px 0 rgba(0,0,0,0.75);
-    opacity: 0.5;
 }
 
     .operators__add:hover {
@@ -25,3 +28,28 @@
     .operators__add .material-icons.md-38 {
         font-size: 38px;
     }
+
+.operators__list {
+}
+
+.operators__list__operator {
+}
+
+.operators__list__operator__label {
+    /*123 32*/
+    width: 123px;
+    height: 32px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.operators__list__operator__label__value {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.operators__list__operator__icon {
+}

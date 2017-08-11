@@ -1,13 +1,13 @@
 ﻿.view {
     width: 1600px;
     height: 1062px;
-    background-color: #f4f0ea;
-    /*background-color: red;*/
+    /*background-color: #f4f0ea;*/
+    background-color: lightcyan;
 }
 
 .body {
     width: inherit;
-    height: 947px;
+    /*height: 947px;*/
 }
 
 .body__containers {

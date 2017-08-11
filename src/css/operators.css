@@ -16,7 +16,8 @@
     display: flex;
     flex-grow: 1;
     justify-content: center;
-    /*background-color: green;*/
+    flex-direction: column;
+    background-color: green;
 }
 
 .operators__list__operator {
@@ -24,7 +25,7 @@
     justify-content: space-between;
     width: 173px;
     height: 42px;
-    /*background-color: red;*/
+    background-color: red;
     align-items: center;
 }
 
@@ -60,9 +61,11 @@
 /**/
 
 .operators__add {
-    /*background-color: yellow;*/
-    height: 70px;
+    background-color: yellow;
+    height: 115px;
     padding-right: 10px;
+    display: flex;
+    align-items: flex-end
 }
 
 .operators__add__icon {

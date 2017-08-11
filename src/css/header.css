@@ -1,5 +1,6 @@
 ﻿/**/
 .header {
+    position: absolute;
     width: 1600px;
     height: 115px;
     background-color: #ffffff;
@@ -7,6 +8,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #e8e5e2;
+    z-index: 100;
 }
 
 .header__title {

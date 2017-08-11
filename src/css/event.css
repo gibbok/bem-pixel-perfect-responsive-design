@@ -74,12 +74,9 @@
     background-color: #3862c0;
 }
 
+/**/
 .event__body__situation__type1 {
     position: inherit;
-    display: flex;
-    flex-direction: column;
-    /*top: 30px;
-    left: 41px;*/
     height: 62px;
     width: 170px;
     border: 1px solid red;
@@ -118,16 +115,12 @@
 
 
 /*----------*/
-
 .event__body__situation__type2 {
     position: inherit;
-    display: flex;
-    flex-direction: column;
-    /*top: 30px;
-    left: 41px;*/
     height: 62px;
     width: 170px;
     border: 1px solid red;
+    padding-top: 18px;
 }
 
 .event__body__situation__type2__time {
@@ -145,6 +138,7 @@
 
 .event__body__situation__type2_point {
     position: absolute;
+    top: 0;
     right: 0;
     width: 10px;
     height: 10px;
@@ -155,7 +149,7 @@
 
 .event__body__situation__type2_point--warning {
     position: absolute;
-    right: 0;
+    top: 0;
     width: 10px;
     height: 10px;
     border-radius: 5px;

@@ -1,4 +1,8 @@
-﻿.notification {
+﻿/*
+    Modal dialog notification for a sent ticket.
+*/
+
+.notification {
     position: absolute;
     width: 1600px;
     height: 1062px;

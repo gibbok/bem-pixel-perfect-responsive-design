@@ -1,4 +1,8 @@
-﻿.view {
+﻿/*
+    Motion and mobile view.
+*/
+
+.view {
     position: absolute;
     top: 115px;
     width: 1600px;

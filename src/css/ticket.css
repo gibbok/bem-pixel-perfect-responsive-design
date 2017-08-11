@@ -1,4 +1,8 @@
-﻿.ticket {
+﻿/*
+    Modal dialog ticket details.
+*/
+
+.ticket {
     position: absolute;
     width: 1600px;
     height: 1062px;

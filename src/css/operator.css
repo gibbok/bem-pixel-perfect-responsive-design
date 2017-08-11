@@ -1,4 +1,8 @@
-﻿.order__header__operator--inactive {
+﻿/*
+    Operator avatar/user.
+*/
+
+.order__header__operator--inactive {
     color: #d7d7d7;
 }
 

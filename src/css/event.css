@@ -1,4 +1,8 @@
-﻿.event {
+﻿/*
+    Event component and its timeline.
+*/
+
+.event {
     width: 100%;
     height: 255px;
     /*padding-left: 33px;

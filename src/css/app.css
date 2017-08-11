@@ -1,4 +1,8 @@
-﻿* {
+﻿/*
+    Generic for the entire application.
+*/
+
+* {
     box-sizing: border-box;
 }
 
@@ -15,6 +19,7 @@ body {
     height: 1062px;
     opacity: 0.2;
     z-index: 100;
+    /* uncomment code to see the trace image */
     background-image: url("../../mockups/view-04.png");
     /*background-image: url("../../mockups/view-03.png");*/
     /*background-image: url("../../mockups/view-02.png");*/

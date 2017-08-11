@@ -1,4 +1,9 @@
-﻿.bar {
+﻿/*
+    Progress bar.
+    Set width for a progress bar using inline styles.
+*/
+
+.bar {
     height: 10px;
 }
 

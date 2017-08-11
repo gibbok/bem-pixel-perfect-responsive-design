@@ -1,4 +1,8 @@
-﻿.operators {
+﻿/*
+    Series of operators (avatars/users).
+*/
+
+.operators {
     position: absolute;
     right: 50px;
     bottom: 140px;
@@ -134,77 +138,3 @@
     .operators__add__icon .material-icons.md-40 {
         font-size: 40px;
     }
-
-
-/*.operators {
-    width: 100%;
-    margin-top: -375px;
-    height: 355px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    z-index: 1;
-    background-color: rgba(255,0,0,0.5 );
-}
-
-.operators__add {
-    background-color: yellow;
-}
-
-.operators__add__icon {
-    width: 70px;
-    height: 70px;
-    background-color: #446ac2;
-    border-radius: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.75);
-    margin-left: auto;
-}
-
-    .operators__add__icon:hover {
-        filter: brightness(110%);
-    }
-
-
-
-.operators__list {
-    text-align: right;
-}
-
-.operators__list__operator {
-    display: flex;
-    justify-content: space-between;
-    width: 173px;
-    height: 42px;
-    margin: 10px;
-}
-
-.operators__list__operator__label {
-    width: 123px;
-    height: 32px;
-    background-color: #000000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.operators__list__operator__label__value {
-    text-transform: uppercase;
-    color: #ffffff;
-    font-size: 13px;
-}
-
-.operators__list__operator__icon {
-    color: #ffffff;
-    background-color: #000000;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-}
-
-    .operators__list__operator__icon .material-icons.md-40 {
-        font-size: 40px;
-    }*/

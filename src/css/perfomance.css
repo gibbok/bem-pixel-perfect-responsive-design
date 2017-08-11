@@ -1,4 +1,8 @@
-﻿.perfomance {
+﻿/*
+    Perfomance component.
+*/
+
+.perfomance {
     width: 100%;
     height: 545px;
     border: 1px solid red;

@@ -38,13 +38,17 @@
     justify-content: center
 }
 
+    .ticket__window__button:hover {
+        filter: brightness(110%);
+    }
+
+
 .ticket__window__button__info {
     text-transform: uppercase;
     color: #ffffff;
     font-size: 23px;
     font-weight: 700;
 }
-
 
 .ticket__cover {
     position: absolute;

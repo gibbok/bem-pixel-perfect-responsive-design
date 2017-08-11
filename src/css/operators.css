@@ -1,7 +1,7 @@
 ﻿.operators {
     position: absolute;
     right: 50px;
-    bottom: 20px;
+    bottom: 19px;
     width: 225px;
     height: 360px;
     z-index: 1;
@@ -24,9 +24,40 @@
     justify-content: space-between;
     width: 173px;
     height: 42px;
-    background-color: red;
+    /*background-color: red;*/
+    align-items: center;
 }
 
+
+.operators__list__operator__label {
+    width: 123px;
+    height: 31px;
+    background-color: #000000;
+    /*border: 1px solid green;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.operators__list__operator__label__value {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.operators__list__operator__icon {
+    color: #ffffff;
+    background-color: #000000;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+    .operators__list__operator__icon .material-icons.md-40 {
+        font-size: 40px;
+    }
+
+/**/
 
 .operators__add {
     /*background-color: yellow;*/

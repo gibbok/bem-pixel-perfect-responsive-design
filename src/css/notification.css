@@ -1,0 +1,56 @@
+﻿.notification {
+    position: absolute;
+    width: 1600px;
+    height: 1062px;
+    z-index: 4;
+}
+
+.notification__window__container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 112px;
+    flex-direction: column;
+}
+
+
+.notification__window__icon {
+    color: #ffffff;
+    font-weight: 700;
+    width: 90px;
+    height: 90px;
+    border: 7px solid #ffffff;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 17px;
+}
+
+    .notification__window__icon > i.material-icons.md-65 {
+        font-size: 65px;
+    }
+
+.notification__window__info {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.notification__window__info__text {
+    padding-left: 50px;
+}
+
+.notification__cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.7;
+}

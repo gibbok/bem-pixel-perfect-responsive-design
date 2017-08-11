@@ -143,3 +143,22 @@
     text-transform: uppercase;
     color: #9a9692;
 }
+
+.ticket__window__main__body__recommandationsdata {
+    padding-top: 12px;
+}
+
+.ticket__window__main__body__recommandationsdata__line {
+    display: flex;
+    justify-content: space-between;
+    /*background-color: yellow;*/
+    margin-bottom: 9px;
+}
+
+.ticket__window__main__body__recommandationsdata__info,
+.ticket__window__main__body__recommandationsdata__value {
+    font-size: 21px;
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: -0.9px;
+}

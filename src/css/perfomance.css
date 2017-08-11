@@ -6,7 +6,7 @@
     padding-right: 43px;
     background-color: #ffffff;
     border: 1px solid #faf9f9;
-    box-shadow: 1px 1px 4px 0px #faf9f9;
+    box-shadow: 1px 2px 8px 0px rgba(0,0,0,0.1);
 }
 
 .perfomance__header {

@@ -9,6 +9,7 @@
     align-items: center;
     border-bottom: 1px solid #e8e5e2;
     z-index: 100;
+    box-shadow: 1px 2px 8px 0px rgba(0,0,0,0.1);
 }
 
 .header__title {

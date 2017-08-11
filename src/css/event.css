@@ -64,8 +64,7 @@
 .event__body__timeline {
     height: 3px;
     margin-top: 75px;
-    /*background-color: #e4e4e4;*/
-    background-color: green;
+    background-color: #e4e4e4;
 }
 
 .event__body__timeline__progress {
@@ -79,7 +78,7 @@
     position: inherit;
     height: 62px;
     width: 170px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .event__body__situation__type1__time {
@@ -113,13 +112,23 @@
     border: 1px solid #ffffff;
 }
 
+.event__body__situation__type1_point--info {
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+}
+
 
 /*----------*/
 .event__body__situation__type2 {
     position: inherit;
     height: 62px;
     width: 170px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     padding-top: 18px;
 }
 

@@ -15,4 +15,9 @@
     justify-content: center;
     color: #ffffff;
     box-shadow: 0 3px 15px 0 rgba(0,0,0,0.75);
+    opacity: 0.5;
 }
+
+    .operators__add .material-icons.md-38 {
+        font-size: 38px;
+    }

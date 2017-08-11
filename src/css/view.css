@@ -52,10 +52,10 @@
 
 .operators__container {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 50px;
+    bottom: 20px;
     width: 225px;
-    height: 350px;
+    height: 360px;
     z-index: 1;
     border: 1px solid red;
     pointer-events: none;

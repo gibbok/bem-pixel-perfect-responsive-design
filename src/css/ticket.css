@@ -5,18 +5,28 @@
     z-index: 3;
 }
 
+.ticket__window__container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 112px;
+}
+
+
 .ticket__window {
     position: absolute;
     background-color: #ffffff;
     width: 521px;
     height: 354px;
-    margin: 0 auto;
 }
 
 .ticket__cover {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: black;
-    /*background-color: rgba(0,0,0,0.5);*/
+    background-color: #000000;
+    opacity: 0.7;
 }

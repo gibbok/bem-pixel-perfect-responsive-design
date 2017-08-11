@@ -15,7 +15,7 @@ body {
     height: 1062px;
     opacity: 0.2;
     z-index: 100;
-    background-image: url("../../mockups/view-03.png");
-    /*background-image: url("../../mockups/view-02.png");*/
+    /*background-image: url("../../mockups/view-03.png");*/
+    background-image: url("../../mockups/view-02.png");
     /*background-image: url("../../mockups/view-01.png");*/
 }

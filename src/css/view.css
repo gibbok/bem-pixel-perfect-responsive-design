@@ -1,5 +1,6 @@
 ﻿.view {
     position: absolute;
+    top: 115px;
     width: 1600px;
     height: 1062px;
     background-color: #f4f0ea;

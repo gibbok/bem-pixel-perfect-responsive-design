@@ -59,7 +59,7 @@
     height: 117px;
     display: flex;
     flex-direction: column;
-    background-color: Highlight;
+    /*background-color: Highlight;*/
     padding-left: 33px;
     padding-right: 43px;
 }
@@ -94,16 +94,30 @@
     margin-right: 20px;
 }
 
+.ticket__window__main_header__info__order {
+    margin-right: 13px;
+}
+
 .ticket__window__main_header__info__ppt__value,
-.ticket__window__main_header__info__order__value {
+.ticket__window__main_header__info__order__value,
+.ticket__window__main_header__info__worker__value {
     font-size: 23px;
     font-weight: 700;
+}
+
+.ticket__window__main_header__info__ppt__value,
+.ticket__window__main_header__info__order__value {
     text-transform: uppercase;
 }
 
 .ticket__window__main_header__info__ppt__caption,
-.ticket__window__main_header__info__order__caption {
+.ticket__window__main_header__info__order__caption,
+.ticket__window__main_header__info__worker__caption {
     font-size: 13px;
     text-transform: uppercase;
     color: #9a9692;
+}
+
+.ticket__window__main_header__info__worker__value {
+    letter-spacing: -1px;
 }

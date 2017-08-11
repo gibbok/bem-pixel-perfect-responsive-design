@@ -7,11 +7,14 @@
     flex-direction: column;
     justify-content: space-between;
     z-index: 1;
-    background-color: rgba(255,0,0,0.5);
+    background-color: rgba(255,0,0,0.5 );
     width: 100%;
 }
 
 .operators__add {
+}
+
+.operators__add__icon {
     width: 70px;
     height: 70px;
     background-color: #446ac2;
@@ -23,11 +26,11 @@
     box-shadow: 0 3px 15px 0 rgba(0,0,0,0.75);
 }
 
-    .operators__add:hover {
+    .operators__add__icon:hover {
         filter: brightness(110%);
     }
 
-    .operators__add .material-icons.md-38 {
+    .operators__add__icon .material-icons.md-38 {
         font-size: 38px;
     }
 

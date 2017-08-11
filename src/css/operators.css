@@ -1,0 +1,18 @@
+﻿
+.operators {
+    position: absolute;
+    right: 0px;
+    top: 970px;
+}
+
+.operators__add {
+    width: 70px;
+    height: 70px;
+    background-color: #446ac2;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.75);
+}

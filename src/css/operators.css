@@ -1,12 +1,12 @@
 ﻿.operators {
     position: absolute;
     right: 50px;
-    bottom: 19px;
+    bottom: 23px;
     width: 225px;
-    height: 360px;
+    height: 355px;
     z-index: 1;
-    border: 1px solid red;
-    pointer-events: none;
+    /*border: 1px solid red;*/
+    /*pointer-events: none;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -29,7 +29,7 @@
     justify-content: space-between;
     padding-left: 24px;
     align-items: center;
-    padding-top: 2px;
+    padding-top: 5px;
     width: 212px;
     padding-left: 0px;
     height: 157px;
@@ -105,8 +105,8 @@
 
 /**/
 .operators__add {
-    background-color: yellow;
-    height: 115px;
+    /*background-color: yellow;*/
+    /*height: 115px;*/
     padding-right: 10px;
     display: flex;
     align-items: flex-end

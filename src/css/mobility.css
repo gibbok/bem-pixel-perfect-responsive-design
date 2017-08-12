@@ -10,11 +10,11 @@
     background-color: #f4f0ea;
 }
 
-.body {
+.mobility__body {
     width: inherit;
 }
 
-.body__containers {
+.mobility__body__containers {
     height: 837px;
     display: flex;
     justify-content: space-between;

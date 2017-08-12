@@ -151,3 +151,11 @@
     .operators__add__icon i.material-icons.md-40 {
         font-size: 40px;
     }
+
+@media screen and (max-width: 980px) {
+    .operators {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+}

@@ -50,6 +50,10 @@
         }
 
 @media screen and (max-width: 980px) {
+    .mobility {
+        width: 980px;
+    }
+
     .mobility__body__containers {
         height: auto;
         display: inline;

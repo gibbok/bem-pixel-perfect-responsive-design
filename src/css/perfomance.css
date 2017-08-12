@@ -44,3 +44,9 @@
     height: 1px;
     background-color: #e5e5e5;
 }
+
+@media screen and (max-width: 980px) {
+    .perfomance__body {
+        text-align: center;
+    }
+}

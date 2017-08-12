@@ -16,7 +16,9 @@
 }
 
 .header__title {
-    margin: 5px 0 0 135px;
+    /*margin: 5px 0 0 135px;*/
+    margin-top: 5px;
+    margin-left: 135px;
     text-transform: uppercase;
     font-size: 17px;
     font-weight: 700;
@@ -38,8 +40,12 @@
     font-size: 13px;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 980px) {
     .header {
-        width: 1040px;
+        width: 980px;
+    }
+
+    .header__title {
+        margin-left: 33px;
     }
 }

@@ -48,3 +48,11 @@
         .contextual__container > div:last-child {
             margin-bottom: 0;
         }
+
+@media screen and (max-width: 980px) {
+    .mobility__body__containers {
+        height: auto;
+        display: inline;
+        margin: 63px 50px 45px 47px;
+    }
+}

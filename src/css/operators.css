@@ -10,11 +10,15 @@
     height: 355px;
     z-index: 1;
     /*border: 1px solid red;*/
-    /*pointer-events: none;*/
+    pointer-events: none;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
+    .operators * {
+        pointer-events: auto;
+    }
 
 .operators__list {
 }

@@ -37,3 +37,9 @@
     color: #84848c;
     font-size: 13px;
 }
+
+@media screen and (max-width: 1040px) {
+    .header {
+        width: 1040px;
+    }
+}

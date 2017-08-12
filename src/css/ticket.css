@@ -160,3 +160,11 @@
     font-weight: 700;
     letter-spacing: -0.9px;
 }
+
+@media screen and (max-width: 980px) {
+    .ticket {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+    }
+}

@@ -57,3 +57,11 @@
     background-color: #000000;
     opacity: 0.7;
 }
+
+@media screen and (max-width: 980px) {
+    .notification {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+    }
+}

@@ -43,7 +43,6 @@
     height: 157px;
 }
 
-
 .operators__list__operator__label {
     width: 123px;
     height: 31px;
@@ -91,7 +90,7 @@
 }
 
 
-    .operators__list__operator__icon .material-icons.md-39 {
+    .operators__list__operator__icon i.material-icons.md-39 {
         font-size: 39px;
     }
 
@@ -106,7 +105,7 @@
     box-shadow: 0 3px 15px 0 rgba(0,0,0,0.75);
 }
 
-    .operators__list__operator__icon--active .material-icons.md-71 {
+    .operators__list__operator__icon--active i.material-icons.md-71 {
         font-size: 71px;
     }
 
@@ -139,6 +138,6 @@
         filter: brightness(110%);
     }
 
-    .operators__add__icon .material-icons.md-40 {
+    .operators__add__icon i.material-icons.md-40 {
         font-size: 40px;
     }

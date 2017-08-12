@@ -182,3 +182,9 @@
     background-color: #000000;
     border: 1px solid #ffffff;
 }
+
+@media screen and (max-width: 980px) {
+    .event__body__container {
+        width: 960px;
+    }
+}

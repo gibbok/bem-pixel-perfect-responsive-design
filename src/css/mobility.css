@@ -55,4 +55,20 @@
         display: inline;
         margin: 63px 50px 45px 47px;
     }
+
+    .contextual__container {
+        width: 963px;
+    }
+
+        .contextual__container > div {
+            margin-bottom: 33px;
+        }
+
+            .contextual__container > div:first-child {
+                margin-top: 33px;
+            }
+
+            .contextual__container > div:last-child {
+                margin-bottom: 0;
+            }
 }

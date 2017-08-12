@@ -77,9 +77,13 @@
     padding-right: 4px;
 }
 
-    .order__header__operators i.material-icons.md-27 {
-        font-size: 27px;
+    .order__header__operators i.material-icons {
+        padding-left: 1px;
     }
+
+        .order__header__operators i.material-icons.md-27 {
+            font-size: 27px;
+        }
 
 .order__rule {
     width: 100%;

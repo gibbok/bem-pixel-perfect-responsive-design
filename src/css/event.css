@@ -56,8 +56,8 @@
 .event__body__container {
     position: absolute;
     /*background-color: red;*/
-    overflow-x: auto;
-    overflow-y: hidden;
+    overflow-x: hidden;
+    /*overflow-y: hidden;*/
     width: 510px;
     height: 187px;
 }

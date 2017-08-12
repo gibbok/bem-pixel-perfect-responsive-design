@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/mobility.js"></script>
 </head>
 <body>
     <!--<div class="tracer"></div>-->
@@ -493,8 +494,7 @@
 
         </div>
         <div class="operators">
-
-            <div class="operators__list">
+            <div id="operators__list" class="operators__list" style="visibility:hidden;">
                 <div class="operators__list__operator1">
                     <div class="operators__list__operator__label">
                         <div class="operators__list__operator__label__value">
@@ -529,7 +529,7 @@
                 </div>
             </div>
             <div class="operators__add">
-                <div class="operators__add__icon">
+                <div id="operators__add__icon" class="operators__add__icon">
                     <i class="material-icons md-40">add</i>
                 </div>
             </div>

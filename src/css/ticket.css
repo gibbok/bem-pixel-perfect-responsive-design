@@ -38,7 +38,8 @@
     background-color: #446ac2;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    cursor: pointer;
 }
 
     .ticket__window__button:hover {
@@ -84,7 +85,6 @@
     margin-left: 33px;
     margin-right: 43px;
     background-color: #e5e5e5;
-    background-color: red;
 }
 
 .ticket__window__main_header__info {

@@ -32,6 +32,8 @@
     justify-content: center;
     margin-left: 50px;
     margin-top: 17px;
+    cursor: default;
+    user-select: none;
 }
 
     .notification__window__icon > i.material-icons.md-65 {

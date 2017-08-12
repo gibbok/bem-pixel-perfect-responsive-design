@@ -31,6 +31,10 @@
     padding-top: 2px;
 }
 
+    .operators__list__operator1 * {
+        cursor: pointer;
+    }
+
 .operators__list__operator2 {
     display: flex;
     justify-content: space-between;
@@ -41,6 +45,10 @@
     padding-left: 0px;
     height: 157px;
 }
+
+    .operators__list__operator2 * {
+        cursor: pointer;
+    }
 
 .operators__list__operator__label {
     width: 123px;
@@ -86,6 +94,7 @@
     height: 40px;
     border-radius: 20px;
     box-shadow: 0 3px 12px 0 rgba(0,0,0,0.5);
+    user-select: none;
 }
 
     .operators__list__operator__icon i.material-icons.md-39 {
@@ -123,6 +132,7 @@
     color: #ffffff;
     font-weight: 700;
     font-size: 21px;
+    user-select: none;
 }
 
 .operators__add {
@@ -142,6 +152,8 @@
     color: #ffffff;
     box-shadow: 0 3px 15px 0 rgba(0,0,0,0.75);
     margin-left: auto;
+    cursor: pointer;
+    user-select: none;
 }
 
     .operators__add__icon:hover {

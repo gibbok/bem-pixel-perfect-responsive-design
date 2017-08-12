@@ -12,3 +12,5 @@
 - [] improve space among avatars/persons
 - [ ] improve svg viewbox
 - [ ] fix selector for material as i.material-icons.md-65
+
+- [ ] remember to add W icon logo inside active operator in operators list <<<

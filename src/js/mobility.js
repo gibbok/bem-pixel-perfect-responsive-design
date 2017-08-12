@@ -8,7 +8,7 @@
     */
     var component = {
         /*
-         *  Initialize the componenet.
+         *  Initialize the component.
          */
         init: function (id) {
             this.id = id;
@@ -16,7 +16,7 @@
             this.domNode = $(this.id);
         },
         /*
-         *  Show the componenet.
+         *  Show the component.
          */
         show: function () {
             if (!this.isVisible) {
@@ -25,7 +25,7 @@
             }
         },
         /*
-         *  Hide the componenet.
+         *  Hide the component.
          */
         hide: function () {
             if (this.isVisible) {
@@ -34,7 +34,7 @@
             }
         },
         /*
-         *  Detect mouse click events on the componenet.
+         *  Detect mouse click events on the component.
          */
         onClick: function (cb) {
             $(this.domNode).click(cb)
@@ -43,7 +43,7 @@
 
     /*
      *  Visibility mixin.
-     *  Properties shadowing to the base implemention of show/hide.
+     *  Properties shadowing to the base implementation of show/hide.
      */
     var visibilityMixin = {
         show: function () {
@@ -74,12 +74,12 @@
     };
 
     $(function () {
-        // create draggable timeline of events
+        // create a draggable timeline of events
         var timeline = Object.create(draggable);
         timeline.init('#event__body');
         timeline.draggable();
 
-        // create add operator button
+        // create the add operator button
         var addOperatorButton = Object.create(component);
         addOperatorButton.init('#operators__add__icon');
         addOperatorButton.isVisible = true;
@@ -92,12 +92,12 @@
 
         });
 
-        // create list of operators
+        // create a list of operators
         var operatorsList = Object.create(component);
         operatorsList.init('#operators__list');
         operatorsList = Object.assign(operatorsList, visibilityMixin)
 
-        // create active operator
+        // create an active operator
         var activeOperator = Object.create(component);
         activeOperator.init('#operators__list__operator2');
         activeOperator.onClick(function (event) {
@@ -105,11 +105,11 @@
             ticketDialog.show();
         });
 
-        // create ticket dialog
+        // create a ticket dialog
         var ticketDialog = Object.create(component);
         ticketDialog.init('#ticket');
 
-        // create send ticket button in ticket dialog
+        // create a send ticket button in ticket dialog
         var sendTicketButton = Object.create(component);
         sendTicketButton.init('#ticket__window__button');
         sendTicketButton.onClick(function (event) {
@@ -117,7 +117,7 @@
             notificationDialog.show();
         });
 
-        // create a notification dialog
+        // create the notification dialog
         var notificationDialog = Object.create(component);
         notificationDialog.init('#notification');
     });

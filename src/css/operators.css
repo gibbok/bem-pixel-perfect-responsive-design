@@ -85,7 +85,7 @@
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 3px 12px 0 rgba(0,0,0,0.5);
 }
 
     .operators__list__operator__icon i.material-icons.md-39 {
@@ -98,7 +98,7 @@
     width: 71px;
     height: 71px;
     border-radius: 35px;
-    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 3px 12px 0 rgba(0,0,0,0.5);
 }
 
     .operators__list__operator__icon--active i.material-icons.md-71 {
@@ -116,7 +116,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 3px 12px 0 rgba(0,0,0,0.5);
 }
 
 .operators__list__operator__iconspecial__value {

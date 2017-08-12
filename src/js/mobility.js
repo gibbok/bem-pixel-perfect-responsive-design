@@ -48,9 +48,9 @@
             }
         };
 
-        var addOperator = Object.create(component);
-        addOperator.init('#operators__add__icon');
-        addOperator.onClick(function (event) {
+        var addOperatorButton = Object.create(component);
+        addOperatorButton.init('#operators__add__icon');
+        addOperatorButton.onClick(function (event) {
             operatorsList.show();
         });
 
@@ -58,11 +58,22 @@
         ticketDialog.init('#ticket');
         ticketDialog.isVisible = false;
 
+        var notificationDialog = Object.create(component);
+        notificationDialog.init('#notification');
+        notificationDialog.isVisible = false;
 
         var activeOperator = Object.create(component);
         activeOperator.init('#operators__list__operator2');
         activeOperator.onClick(function (event) {
+            operatorsList.hide();
             ticketDialog.show();
+        });
+
+        var sendTicketButton = Object.create(component);
+        sendTicketButton.init('#ticket__window__button');
+        sendTicketButton.onClick(function (event) {
+            ticketDialog.hide();
+            notificationDialog.show();
         });
 
     });

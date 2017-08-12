@@ -29,9 +29,12 @@
     };
 
     var draggable = {
-        init: function (targetId, containmentId) {
-
-
+        init: function (id) {
+            this.id = id;
+            this.domNode = $(this.id);
+        },
+        draggable: function () {
+            $(this.domNode).addClass('dragscroll');
         }
     };
 
@@ -44,7 +47,8 @@
 
 
         var timeline = Object.create(draggable);
-        timeline.init('#event__body', '#event__body__container');
+        timeline.init('#event__body');
+        timeline.draggable();
 
         var addOperatorButton = Object.create(component);
         addOperatorButton.init('#operators__add__icon');

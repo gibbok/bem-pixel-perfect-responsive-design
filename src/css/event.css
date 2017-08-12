@@ -73,7 +73,7 @@
     flex-direction: column;*/
     padding-top: 10px;
     height: 100%;
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 /*.event__body {
     position: absolute;
@@ -104,7 +104,7 @@
     position: inherit;
     height: 62px;
     width: 170px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .event__body__situation__type1__time {
@@ -154,7 +154,7 @@
     position: inherit;
     height: 62px;
     width: 170px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     padding-top: 18px;
 }
 

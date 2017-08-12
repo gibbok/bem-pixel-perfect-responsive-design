@@ -2,31 +2,17 @@
  *  Mobility screen.
  */
 ; (function (window) {
-
     /*
-     *  jQuery extension
-     *  Add a super simple plugin in order to set the visibility of DOM node.
-     */
-    jQuery.fn.visible = function () {
-        return this.css('visibility', 'visible');
-    };
-
-    jQuery.fn.invisible = function () {
-        return this.css('visibility', 'hidden');
-    };
-
-    /*
-     *  Base component.
-     *  Based on OLOO (objects linked to other objects) pattern.
-     */
+    *  Base component.
+    *  Based on OLOO (objects linked to other objects) pattern.
+    */
     var component = {
         /*
          *  Initialize the componenet.
          */
         init: function (id) {
-
             this.id = id;
-            this.isVisible = true;
+            this.isVisible = false;
             this.domNode = $(this.id);
         },
         /*
@@ -96,6 +82,7 @@
         // create add operator button
         var addOperatorButton = Object.create(component);
         addOperatorButton.init('#operators__add__icon');
+        addOperatorButton.isVisible = true;
         addOperatorButton.onClick(function (event) {
             operatorsList.show();
         });
@@ -103,7 +90,6 @@
         // create list of operators
         var operatorsList = Object.create(component);
         operatorsList.init('#operators__list');
-        operatorsList.isVisible = false;
         operatorsList = Object.assign(operatorsList, visibilityMixin)
 
         // create active operator
@@ -117,7 +103,6 @@
         // create ticket dialog
         var ticketDialog = Object.create(component);
         ticketDialog.init('#ticket');
-        ticketDialog.isVisible = false;
 
         // create send ticket button in ticket dialog
         var sendTicketButton = Object.create(component);
@@ -130,6 +115,5 @@
         // create a notification dialog
         var notificationDialog = Object.create(component);
         notificationDialog.init('#notification');
-        notificationDialog.isVisible = false;
     });
 })(window);

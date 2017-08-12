@@ -35,14 +35,16 @@
         show: function () {
             if (!this.isVisible) {
                 $(this.domNode).show();
+                this.isVisible = true;
             }
         },
         /*
          *  Hide the componenet.
          */
         hide: function () {
-            if (!this.isVisible) {
+            if (this.isVisible) {
                 $(this.domNode).hide();
+                this.isVisible = false;
             }
         },
         /*
@@ -53,7 +55,24 @@
         }
     };
 
-
+    /*
+     *  Visibility mixin.
+     *  Properties shadowing to the base implemention of show/hide.
+     */
+    var visibilityMixin = {
+        show: function () {
+            if (!this.isVisible) {
+                $(this.domNode).visible();
+                this.isVisible = true;
+            }
+        },
+        hide: function () {
+            if (this.isVisible) {
+                $(this.domNode).invisible();
+                this.isVisible = false;
+            }
+        }
+    };
 
     /*
      *  Base for a draggable component.
@@ -67,8 +86,6 @@
             $(this.domNode).addClass('dragscroll');
         }
     };
-
-
 
     $(function () {
         // create draggable timeline of events
@@ -87,16 +104,7 @@
         var operatorsList = Object.create(component);
         operatorsList.init('#operators__list');
         operatorsList.isVisible = false;
-        operatorsList.show = function () {
-            if (!this.isVisible) {
-                $(this.domNode).visible();
-            }
-        };
-        operatorsList.hide = function () {
-            if (!this.isVisible) {
-                $(this.domNode).invisible();
-            }
-        };
+        operatorsList = Object.assign(operatorsList, visibilityMixin)
 
         // create active operator
         var activeOperator = Object.create(component);
@@ -123,7 +131,5 @@
         var notificationDialog = Object.create(component);
         notificationDialog.init('#notification');
         notificationDialog.isVisible = false;
-
     });
-
 })(window);

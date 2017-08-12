@@ -8,8 +8,8 @@
     };
 
     var component = {
-        init: function (componentId) {
-            this.id = componentId;
+        init: function (id) {
+            this.id = id;
             this.isVisible = true;
             this.domNode = $(this.id);
         },
@@ -28,12 +28,23 @@
         }
     };
 
+    var draggable = {
+        init: function (targetId, containmentId) {
+
+
+        }
+    };
+
 
 
     $(function () {
         /**
          * remember to add W icon logo inside active operator in operators list
          */
+
+
+        var timeline = Object.create(draggable);
+        timeline.init('#event__body', '#event__body__container');
 
         var addOperatorButton = Object.create(component);
         addOperatorButton.init('#operators__add__icon');
@@ -61,7 +72,6 @@
             operatorsList.hide();
             ticketDialog.show();
         });
-
 
         var ticketDialog = Object.create(component);
         ticketDialog.init('#ticket');

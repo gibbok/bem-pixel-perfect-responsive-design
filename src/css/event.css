@@ -5,11 +5,8 @@
 .event {
     width: 100%;
     height: 255px;
-    /*padding-left: 33px;
-    padding-right: 43px;*/
     border: 1px solid #faf9f9;
     background-color: #ffffff;
-    /*border: 1px solid #faf9f9;*/
     box-shadow: 1px 2px 8px 0px rgba(0,0,0,0.1);
 }
 
@@ -17,7 +14,6 @@
     width: inherit;
     height: 69px;
     display: flex;
-    /*background-color: Highlight;*/
     padding-left: 33px;
     padding-right: 43px;
 }
@@ -27,7 +23,6 @@
     height: inherit;
     padding-top: 26px;
     padding-left: 8px;
-    /*background-color: Highlight;*/
 }
 
 .event__header__title__main {
@@ -46,46 +41,23 @@
 .event__rule {
     width: calc(100% - 33px - 43px);
     height: 1px;
-    /*background-color: red;*/
     margin-left: 33px;
     margin-right: 43px;
     background-color: #e5e5e5;
 }
 
-
 .event__body__container {
     position: absolute;
-    /*background-color: red;*/
     overflow-x: hidden;
-    /*overflow-y: hidden;*/
     width: 510px;
     height: 187px;
 }
-
 
 .event__body {
     position: absolute;
-    /*overflow-x: auto;
-    overflow-y: hidden;*/
-    /*width: 510px;
-    height: 187px;*/
-    /*display: flex;
-    flex-direction: column;*/
     padding-top: 10px;
     height: 100%;
-    /*background-color: yellow;*/
 }
-/*.event__body {
-    position: absolute;
-    overflow-x: auto;
-    overflow-y: hidden;
-    width: 510px;
-    height: 187px;
-    display: flex;
-    flex-direction: column;
-    padding-top: 10px;
-}*/
-
 
 .event__body__timeline {
     height: 3px;
@@ -95,17 +67,14 @@
 
 .event__body__timeline__progress {
     height: inherit;
-    /*background-color: #e4e4e4;*/
     background-color: #3862c0;
 }
 
-/**/
 .event__body__situation__type1 {
     position: inherit;
     height: 62px;
     width: 170px;
     cursor: default;
-    /*border: 1px solid red;*/
 }
 
 .event__body__situation__type1__time {
@@ -149,13 +118,10 @@
     border: 1px solid #ffffff;
 }
 
-
-/*----------*/
 .event__body__situation__type2 {
     position: inherit;
     height: 62px;
     width: 170px;
-    /*border: 1px solid red;*/
     padding-top: 18px;
     cursor: default;
 }

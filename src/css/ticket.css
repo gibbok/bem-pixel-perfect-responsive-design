@@ -19,7 +19,6 @@
     padding-top: 112px;
 }
 
-
 .ticket__window {
     position: absolute;
     background-color: #ffffff;
@@ -46,7 +45,6 @@
         filter: brightness(110%);
     }
 
-
 .ticket__window__button__info {
     text-transform: uppercase;
     color: #ffffff;
@@ -67,14 +65,12 @@
     height: 117px;
     display: flex;
     flex-direction: column;
-    /*background-color: Highlight;*/
     padding-left: 33px;
     padding-right: 43px;
 }
 
 .ticket__window__main_header__title {
     width: 100%;
-    /*background-color: yellow;*/
     font-size: 25px;
     color: #000000;
     font-weight: 700;
@@ -92,7 +88,6 @@
 }
 
 .ticket__window__main_header__info {
-    /*background-color: orange;*/
     height: 50px;
     padding-left: 15px;
     padding-top: 7px;
@@ -155,7 +150,6 @@
 .ticket__window__main__body__recommandationsdata__line {
     display: flex;
     justify-content: space-between;
-    /*background-color: yellow;*/
     margin-bottom: 9px;
 }
 

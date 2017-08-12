@@ -12,20 +12,16 @@
 
 .body {
     width: inherit;
-    /*height: 947px;*/
 }
 
 .body__containers {
     height: 837px;
-    /*background-color: aliceblue;*/
     display: flex;
     justify-content: space-between;
-    /*margin: 60px 50px 45px 50px;*/
     margin: 63px 50px 45px 47px;
 }
 
 .orders__container {
-    /*background-color: green;*/
     width: 965px;
     display: flex;
     flex-direction: column;
@@ -36,14 +32,12 @@
     }
 
         .orders__container .order:last-of-type {
-            /*background-color: red !important;*/
             margin-bottom: 0;
         }
 
 .contextual__container {
     display: flex;
     flex-direction: column;
-    /*background-color: orange;*/
     width: 510px;
 }
 
@@ -54,15 +48,3 @@
         .contextual__container > div:last-child {
             margin-bottom: 0;
         }
-
-
-
-/*.operators__container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1600px;
-    height: 1062px;
-    z-index: 1;
-    pointer-events: none;
-}*/

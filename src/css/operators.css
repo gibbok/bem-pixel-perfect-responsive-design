@@ -9,7 +9,6 @@
     width: 225px;
     height: 355px;
     z-index: 1;
-    /*border: 1px solid red;*/
     pointer-events: none;
     display: flex;
     flex-direction: column;
@@ -47,7 +46,6 @@
     width: 123px;
     height: 31px;
     background-color: #000000;
-    /*border: 1px solid green;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,7 +55,6 @@
     width: 131px;
     height: 31px;
     background-color: #000000;
-    /*border: 1px solid green;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,7 +64,6 @@
     width: 113px;
     height: 31px;
     background-color: #000000;
-    /*border: 1px solid green;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,12 +85,9 @@
     box-shadow: 0 3px 15px 0 rgba(0,0,0,0.75);
 }
 
-
     .operators__list__operator__icon i.material-icons.md-39 {
         font-size: 39px;
     }
-
-
 
 .operators__list__operator__icon--active {
     color: #ffffff;
@@ -109,13 +102,7 @@
         font-size: 71px;
     }
 
-
-
-
-/**/
 .operators__add {
-    /*background-color: yellow;*/
-    /*height: 115px;*/
     padding-right: 10px;
     display: flex;
     align-items: flex-end

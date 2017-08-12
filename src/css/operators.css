@@ -105,6 +105,26 @@
         font-size: 71px;
     }
 
+.operators__list__operator__iconspecial {
+    position: absolute;
+    margin-left: 127px;
+    margin-top: 35px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ce0a24;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.75);
+}
+
+.operators__list__operator__iconspecial__value {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 21px;
+}
+
 .operators__add {
     padding-right: 10px;
     display: flex;

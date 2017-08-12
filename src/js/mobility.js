@@ -84,7 +84,12 @@
         addOperatorButton.init('#operators__add__icon');
         addOperatorButton.isVisible = true;
         addOperatorButton.onClick(function (event) {
-            operatorsList.show();
+            if (!operatorsList.isVisible) {
+                operatorsList.show();
+            } else {
+                operatorsList.hide();
+            }
+
         });
 
         // create list of operators

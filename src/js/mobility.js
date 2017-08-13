@@ -65,10 +65,17 @@
      */
     var draggable = {
         init: function (id) {
+            /*
+            *  Initialize the component.
+            */
             this.id = id;
             this.domNode = $(this.id);
         },
         draggable: function () {
+            /*
+             *  Make draggable the component.
+             *  Use dragscroll plugin.
+             */
             $(this.domNode).addClass('dragscroll');
         }
     };
@@ -76,7 +83,7 @@
     $(function () {
         // create a draggable timeline of events
         var timeline = Object.create(draggable);
-        timeline.init('#event__body');
+        timeline.init('#event__body__container');
         timeline.draggable();
 
         // create the add operator button

@@ -85,6 +85,8 @@
     text-transform: uppercase;
     color: #ffffff;
     font-size: 13px;
+    font-weight: 700;
+    padding-top: 2px;
 }
 
 .operators__list__operator__icon {

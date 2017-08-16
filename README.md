@@ -10,5 +10,5 @@ The requirements:
 Execution:
 1. I used Adobe Photoshop Measurement features and rules for getting accurate dimensions of component designs. ZoomPlus magnifier has been used for naked eyes verification. I also used image tracing techniques to determinate font sizes.
 2. The coding has been done using a desktop-first approach, the responsive layout for the tablet version is based on CSS3 Media Queries.
-3. For CSS modularity and reusability I have chosen BEM methodology.
+3. For CSS modularity and reusability I have chosen [BEM methodology](http://getbem.com/).
 BEM – meaning block, element, modifier – is a front-end naming methodology. It is a smart way of naming CSS classes to give them more transparency and meaning and it is especially useful for creating reusable UI components.

@@ -12,3 +12,7 @@ Execution:
 2. The coding has been done using a desktop-first approach, the responsive layout for the tablet version is based on CSS3 Media Queries.
 3. For CSS modularity and reusability I have chosen [BEM methodology](http://getbem.com/).
 BEM – meaning block, element, modifier – is a front-end naming methodology. It is a smart way of naming CSS classes to give them more transparency and meaning and it is especially useful for creating reusable UI components.
+
+Notes:
+- The original designs are situated in the `mockups` folder.
+- To see all views: Click the "Plus" icon -> Click "Herr Schmidt" avatar -> Click the "Send ticket " button.

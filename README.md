@@ -16,3 +16,4 @@ BEM – meaning block, element, modifier – is a front-end naming methodology. 
 Notes:
 - The original designs are situated in the `mockups` folder.
 - To see all views: Click the "Plus" icon -> Click "Herr Schmidt" avatar -> Click the "Send ticket " button.
+- The timeline in the "events" box is scrollable horizontally and reveals few more data points.

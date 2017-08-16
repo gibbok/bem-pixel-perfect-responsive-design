@@ -14,24 +14,24 @@
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-top: 112px;
-    flex-direction: column;
 }
 
 .notification__window__icon {
-    color: #ffffff;
-    font-weight: 700;
     width: 90px;
     height: 90px;
-    border: 7px solid #ffffff;
-    border-radius: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 50px;
     margin-top: 17px;
+    color: #ffffff;
+    font-weight: 700;
+    border: 7px solid #ffffff;
+    border-radius: 45px;
     cursor: default;
     user-select: none;
 }
@@ -41,11 +41,11 @@
     }
 
 .notification__window__info {
+    margin-top: 24px;
     color: #ffffff;
-    text-transform: uppercase;
     font-size: 22px;
     font-weight: 700;
-    margin-top: 24px;
+    text-transform: uppercase;
 }
 
 .notification__window__info__text {

@@ -21,11 +21,11 @@
 
 .ticket__window {
     position: absolute;
-    background-color: #ffffff;
     width: 521px;
     height: 354px;
     display: flex;
     flex-direction: column;
+    background-color: #ffffff;
 }
 
 .ticket__window__main {
@@ -33,12 +33,12 @@
 }
 
 .ticket__window__button {
-    height: 65px;
     width: 100%;
-    background-color: #446ac2;
+    height: 65px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #446ac2;
     cursor: pointer;
 }
 
@@ -47,10 +47,10 @@
     }
 
 .ticket__window__button__info {
-    text-transform: uppercase;
     color: #ffffff;
     font-size: 23px;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .ticket__cover {
@@ -72,11 +72,11 @@
 
 .ticket__window__main_header__title {
     width: 100%;
-    font-size: 25px;
-    color: #000000;
-    font-weight: 700;
     padding-top: 39px;
     padding-left: 13px;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
 }
 
 .ticket__window__main__rule {
@@ -155,8 +155,8 @@
 
 .ticket__window__main__body__recommandationsdata__info,
 .ticket__window__main__body__recommandationsdata__value {
-    font-size: 21px;
     color: #000000;
+    font-size: 21px;
     font-weight: 700;
     letter-spacing: -0.9px;
 }

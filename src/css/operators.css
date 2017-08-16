@@ -8,11 +8,11 @@
     bottom: 136px;
     width: 225px;
     height: 355px;
-    z-index: 1;
-    pointer-events: none;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 1;
+    pointer-events: none;
 }
 
     .operators * {
@@ -23,11 +23,11 @@
 }
 
 .operators__list__operator1 {
+    width: 198px;
     display: flex;
     justify-content: space-between;
-    width: 198px;
-    padding-left: 24px;
     align-items: center;
+    padding-left: 24px;
     padding-top: 2px;
 }
 
@@ -36,14 +36,13 @@
     }
 
 .operators__list__operator2 {
+    width: 212px;
+    height: 157px;
     display: flex;
     justify-content: space-between;
-    padding-left: 24px;
     align-items: center;
     padding-top: 5px;
-    width: 212px;
     padding-left: 0px;
-    height: 157px;
 }
 
     .operators__list__operator2 * {
@@ -53,47 +52,47 @@
 .operators__list__operator__label {
     width: 123px;
     height: 31px;
-    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #000000;
     box-shadow: 0 3px 1px 0 rgba(0,0,0,0.1);
 }
 
 .operators__list__operator__label2 {
     width: 131px;
     height: 31px;
-    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #000000;
     box-shadow: 0 3px 1px 0 rgba(0,0,0,0.1);
 }
 
 .operators__list__operator__label3 {
     width: 113px;
     height: 31px;
-    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 10px;
+    background-color: #000000;
     box-shadow: 0 3px 1px 0 rgba(0,0,0,0.1);
 }
 
 .operators__list__operator__label__value {
-    text-transform: uppercase;
     color: #ffffff;
     font-size: 13px;
     font-weight: 700;
+    text-transform: uppercase;
     padding-top: 2px;
 }
 
 .operators__list__operator__icon {
-    color: #ffffff;
-    background-color: #000000;
     width: 40px;
     height: 40px;
+    color: #ffffff;
+    background-color: #000000;
     border-radius: 20px;
     box-shadow: 0 3px 12px 0 rgba(0,0,0,0.5);
     user-select: none;
@@ -104,10 +103,10 @@
     }
 
 .operators__list__operator__icon--active {
-    color: #ffffff;
-    background-color: #000000;
     width: 71px;
     height: 71px;
+    color: #ffffff;
+    background-color: #000000;
     border-radius: 35px;
     box-shadow: 0 3px 12px 0 rgba(0,0,0,0.5);
 }
@@ -118,15 +117,15 @@
 
 .operators__list__operator__iconspecial {
     position: absolute;
-    margin-left: 127px;
-    margin-top: 35px;
     width: 40px;
     height: 40px;
-    border-radius: 20px;
-    background-color: #ce0a24;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 127px;
+    margin-top: 35px;
+    border-radius: 20px;
+    background-color: #ce0a24;
     box-shadow: 0 3px 12px 0 rgba(0,0,0,0.5);
 }
 
@@ -138,22 +137,21 @@
 }
 
 .operators__add {
-    padding-right: 10px;
     display: flex;
-    align-items: flex-end
+    align-items: flex-end padding-right: 10px;
 }
 
 .operators__add__icon {
     width: 70px;
     height: 70px;
-    background-color: #446ac2;
-    border-radius: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
-    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.75);
     margin-left: auto;
+    color: #ffffff;
+    background-color: #446ac2;
+    border-radius: 35px;
+    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.75);
     cursor: pointer;
     user-select: none;
 }

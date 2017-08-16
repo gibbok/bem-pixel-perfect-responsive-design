@@ -41,9 +41,9 @@
 }
 
 .order__header__pptp__caption {
-    text-transform: uppercase;
     color: #a4a4a4;
     font-size: 13px;
+    text-transform: uppercase;
 }
 
 .order__header__identificator {
@@ -54,15 +54,15 @@
 }
 
 .order__header__identificator__value {
-    text-transform: uppercase;
     font-weight: 700;
     font-size: 22px;
+    text-transform: uppercase;
 }
 
 .order__header__identificator__caption {
-    text-transform: uppercase;
     color: #a4a4a4;
     font-size: 13px;
+    text-transform: uppercase;
 }
 
 .order__header__spacer {
@@ -73,8 +73,8 @@
     width: 100px;
     height: inherit;
     padding-top: 25px;
-    text-align: right;
     padding-right: 4px;
+    text-align: right;
 }
 
     .order__header__operators i.material-icons {
@@ -102,10 +102,10 @@
 }
 
 .order__body__produce {
-    margin-top: 16px;
     height: 32px;
     display: flex;
     justify-content: space-between;
+    margin-top: 16px;
 }
 
 .order__body__produce__production__container {
@@ -119,9 +119,9 @@
 }
 
 .order__body__produce__production__info__caption {
-    text-transform: uppercase;
     color: #a4a4a4;
     font-size: 13px;
+    text-transform: uppercase;
     padding-top: 4px;
 }
 
@@ -139,16 +139,16 @@
 }
 
 .order__body__produce__waste__info {
-    display: flex;
     height: 22px;
+    display: flex;
     justify-content: space-between;
 }
 
 .order__body__produce__waste__info__caption {
-    text-transform: uppercase;
+    padding-top: 4px;
     color: #a4a4a4;
     font-size: 13px;
-    padding-top: 4px;
+    text-transform: uppercase;
 }
 
 .order__body__produce__waste__info__value {
@@ -168,10 +168,10 @@
 }
 
 .order__body__equipment__info__caption {
-    text-transform: uppercase;
+    padding-top: 4px;
     color: #a4a4a4;
     font-size: 13px;
-    padding-top: 4px;
+    text-transform: uppercase;
 }
 
 .order__body__equipment__info__value {
@@ -191,19 +191,19 @@
 }
 
 .order__body__noaccident__info__caption {
-    text-transform: uppercase;
+    padding-top: 4px;
     color: #a4a4a4;
     font-size: 13px;
-    padding-top: 4px;
+    text-transform: uppercase;
 }
 
 .order__body__noaccident__info__value {
 }
 
 .order__body__noaccident__info__value__numeric {
+    margin-right: 2px;
     font-weight: 700;
     font-size: 18px;
-    margin-right: 2px;
 }
 
 .order__body__noaccident__info__value__text {

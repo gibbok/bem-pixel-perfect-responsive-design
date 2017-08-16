@@ -1,6 +1,6 @@
 # Pixel perfect responsive design using BEM methodology
 
-An example of pixel perfect responsive design based on BEM methodology on which I have been working recently.
+An example of pixel perfect responsive design based on BEM methodology on which I have been working recently. [Try it live](https://gibbok.github.io/bem-pixel-perfect-responsive-design/).
 
 The requirements:
 1. Implement accurately the design in HTML/CSS for the latest Chrome and Firefox versions.

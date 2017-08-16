@@ -51,7 +51,8 @@
 
 @media screen and (max-width: 980px) {
     .mobility {
-        width: 980px;
+        width: 960px;
+        margin-top: 15px;
     }
 
     .mobility__body__containers {
@@ -61,7 +62,7 @@
     }
 
     .contextual__container {
-        width: 965px;
+        width: 960px;
     }
 
         .contextual__container > div {
@@ -73,6 +74,10 @@
             }
 
             .contextual__container > div:last-child {
-                margin-bottom: 0;
+                margin-bottom: 20px;
             }
+
+    .orders__container {
+        width: 960px;
+    }
 }

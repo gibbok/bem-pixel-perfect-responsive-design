@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 980px) {
     .header {
-        width: 980px;
+        width: 960px;
     }
 
     .header__title {
